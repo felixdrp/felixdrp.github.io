@@ -151,12 +151,12 @@
          },
           
          render: function() {
-             style = {
-               Title: (navigator.userAgent.indexOf('Mobile') > -1)? {fontSize: 3 + 'vw'} : {}
+             var style = {
+               title: (navigator.userAgent.indexOf('Mobile') > -1)? {fontSize: 3 + 'vw'} : {}
              };
              return (
                  <div className="commentBox">
-                   <div style={{Title}}>
+                   <div style={{style.title}}>
                      {/* Title */}
                      {this.state.StevensonBuilding.name}
                    </div>
