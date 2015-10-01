@@ -116,7 +116,6 @@
                      backgroundColor: Color1
                  },                 
                  
-                 
                  rowCell: {
                      display: 'inline',
                      marginLeft: '5px',
@@ -150,11 +149,11 @@
 
              return rows;
          },
-         
+         var style.mobileTitle = (navigator.userAgent.indexOf('Mobile') > -1)? {fontSize: 3 + 'vw'} : {}; 
          render: function() {
              return (
                  <div className="commentBox">
-                   <div>
+                   <div style={{}}>
                      {/* Title */}
                      {this.state.StevensonBuilding.name}
                    </div>
@@ -168,8 +167,8 @@
                                  <div style={{
                                    marginTop: '10px',
                                    marginBottom: '2px',
-                                   "font-weight": 'bolder',
-                                   "font-family": 'sans-serif'
+                                   fontWeight: 'bolder',
+                                   fontFamily: 'sans-serif'
                                    
                                    }}>
                                         {objClass.day}
