@@ -160,6 +160,7 @@
                      {/* Title */}
                      {this.state.StevensonBuilding.name}
                    </div>
+                   <div style={style.title}>
                    {this.state.StevensonBuilding.classes.map(
                        function(objClass, index) {
                            return (
@@ -182,6 +183,7 @@
                                </div>);
                        }.bind(this)
                    )}
+                   </div>
                    {navigator.userAgent}
                  </div>
              );
