@@ -1,13 +1,28 @@
 "use strict";
-var SteBuildClasses = React.createClass({
+
+var ShowTitle = React.createClass({
+  getInitialState: function() {
+      return {
+        isAMobile: (navigator.userAgent.indexOf('Mobile') > -1)? true : false,
+      }
+  },
+  render: function() {
+      return (
+        <h3 style={(this.state.isAMobile)? {fontSize: 3 + 'vh', color: 'red'} : {}}>
+          {this.props.timeline.title}
+        </h3>
+      );
+  }
+});
+
+var TimeLineClasses = React.createClass({
     getInitialState: function() {
         return {
           isAMobile: (navigator.userAgent.indexOf('Mobile') > -1)? true : false,
-          StevensonBuilding: STEVENSON_BUILDING
         }
     },
 
-    presentHours: function(hours) {
+    presentRow: function(hours) {
         var Color1 = '#CC6699';
         var style = {
             rowEven: {
@@ -65,10 +80,10 @@ var SteBuildClasses = React.createClass({
             <div className="commentBox">
               <div style={style.title}>
                 {/* Title */}
-                {this.state.StevensonBuilding.name}
+                {this.props.timeline.name}
               </div>
               <div>
-              {this.state.StevensonBuilding.classes.map(
+              {this.props.timeline.classes.map(
                   function(objClass, index) {
                       return (
                           <div key={index} style={{
@@ -84,7 +99,7 @@ var SteBuildClasses = React.createClass({
                                <span style={style.title}> {objClass.day} </span>
                             </div>
                              <div style={style.tableRow}>
-                                   {this.presentHours(objClass.hours)}
+                                   {this.presentRow(objClass.hours)}
                              </div>
                           </div>);
                   }.bind(this)
@@ -94,3 +109,11 @@ var SteBuildClasses = React.createClass({
         );
     }
 });
+
+React.render(
+  (<div>
+    <ShowTitle timeline={TIMETABLE_DATA} />
+    <TimeLineClasses timeline={TIMETABLE_DATA} />
+  </div>),
+  document.getElementById('App')
+);

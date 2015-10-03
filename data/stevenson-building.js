@@ -1,7 +1,8 @@
 /**
 Timetable Glasgow Uni. Gym Stevenson Building
 */
-var STEVENSON_BUILDING = {
+var TIMETABLE_DATA = {
+    title: 'Glasgow Uni. Gym Classes',
     name: 'Stevenson Building',
     classes: [
         {
