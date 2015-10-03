@@ -3,197 +3,24 @@
     <title>About me.</title>
     <script src="http://felixdrp.github.io/lib/bower_components/react/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <!-- Load timetable data -->
+    <script src="http://felixdrp.github.io/data/stevenson-building.js"></script>
+    <script src="data/stevenson-building.js"></script>
+    <script type="text/babel" src="http://felixdrp.github.io/src/timetable.js"></script>
   </head>
   <body>
-    <h1>About me.</h1>
+    <h3>Glasgow Uni. Gym Classes</h3>
 
     <div id="Table" class="Table">
     </div>
 
     <a href="http://viewer.zmags.com/publication/c442e2b9#/c442e2b9/8"> Web Uni. Full List</a>
-    
+
     <script type="text/babel">
-     
-     var SteBuildClasses = React.createClass({
-         getInitialState: function() {
-             return {
-                 StevensonBuilding: {
-                     name: 'Stevenson Building',
-                     classes: [
-                         {
-                             day: 'Monday',
-                             hours: [
-                                 {
-                                     hour: '0730 - 0810',
-                                     name: 'Total Body Workout',
-                                     place: 'Studio 3'
-                                 },
-                             ]
-                         },
-
-                         {
-                             day: 'Tuesday',
-                             hours: [
-                                 {
-                                     hour: '1830 - 1930',
-                                     name: 'Super Circuits',
-                                     place: 'Activity Hall'
-                                 },
-                             ]
-                         },
-
-                         {
-                             day: 'Wednesday',
-                             hours: [
-                                 {
-                                     hour: '1810 - 1850',
-                                     name: 'Stretch 2 Harmony',
-                                     place: 'Studio 3'
-                                 },
-                             ]
-                         },
-
-                         {
-                             day: 'Thursday',
-                             hours: [
-                                 {
-                                     hour: '1815 - 1855',
-                                     name: 'Total Body Workout',
-                                     place: 'Studio 3'
-                                 },
-                             ]
-                         },
-
-                         {
-                             day: 'Saturday',
-                             hours: [
-                                 {
-                                     hour: '1035 - 1105',
-                                     name: 'Cardio HIT',
-                                     place: 'Activity Hall'
-                                 },
-                                 {
-                                     hour: '1115 - 1200',
-                                     name: 'BoxFit',
-                                     place: 'Activity Hall'
-                                 },
-                             ]
-                         },
-
-                         {
-                             day: 'Sunday',
-                             hours: [
-                                 {
-                                     hour: '1015 - 1055',
-                                     name: 'Total Body Workout',
-                                     place: 'Studio 3'
-                                 },
-                                 {
-                                     hour: '1110 - 1150',
-                                     name: 'Stretch 2 Harmony',
-                                     place: 'Studio 3'
-                                 },
-                             ]
-                         },
-
-                     ]
-                     
-                 }
-             }
-         },
-         
-         presentHours: function(hours) {
-             var Color1 = '#CC6699';
-             var style = {
-                 rowEven: {
-                     display: 'flex',
-                     color: Color1
-                 },
-
-                 rowOdd: {
-                     display: 'flex',
-                     color: 'white',
-                     backgroundColor: Color1
-                 },                 
-                 
-                 rowCell: {
-                     display: 'inline',
-                     marginLeft: '5px',
-                     marginRight: '25px',
-                     "font-weight": 'bolder',
-                     "font-family": 'sans-serif'
-                 },
-
-             };
-             
-             var rows = [];
-             hours.map(
-                 function(hour, index) {
-                     var temporalStyle = (index % 2) > 0? style.rowOdd : style.rowEven;
-                     rows.push(
-                         <div key={index} style={temporalStyle}>
-                           <div style={style.rowCell}>
-                             {hour.hour}
-                           </div>
-                           <div style={style.rowCell}>
-                             {hour.name}
-                           </div>
-                           <div style={style.rowCell}>
-                             {hour.place}
-                           </div>
-                         </div>
-                     );
-
-                 }
-             );
-
-             return rows;
-         },
-          
-         render: function() {
-             var style = {
-               title: (navigator.userAgent.indexOf('Mobile') > -1)? {fontSize: 4 + 'vh'} : {}
-             };
-             return (
-                 <div className="commentBox">
-                   <div style={style.title}>
-                     {/* Title */}
-                     {this.state.StevensonBuilding.name}
-                   </div>
-                   <div style={style.title}>
-                   {this.state.StevensonBuilding.classes.map(
-                       function(objClass, index) {
-                           return (
-                               <div key={index} style={{
-                                    width: '50%',
-                                    marginBottom: '12px'
-                                   }}>
-                                 <div style={{
-                                   marginTop: '10px',
-                                   marginBottom: '2px',
-                                   fontWeight: 'bolder',
-                                   fontFamily: 'sans-serif'
-                                   
-                                   }}>
-                                        {objClass.day}
-                                 </div>
-                                  <div>
-                                        {this.presentHours(objClass.hours)}
-                                  </div>
-                               </div>);
-                       }.bind(this)
-                   )}
-                   </div>
-                   {navigator.userAgent}
-                 </div>
-             );
-         }
-     });
-     
-     React.render(
+      React.render(
         <SteBuildClasses/>,
         document.getElementById('Table')
-        );
+      );
     </script>
   </body>
 </html>
