@@ -1,16 +1,157 @@
 <html>
   <head>
     <title>About me.</title>
-    <script src="http://felixdrp.github.io/lib/bower_components/react/react.min.js"></script>
+    <script src="http://felixdrp.github.io/lib/bower_components/react/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
     <!-- Load timetable data -->
     <script src="http://felixdrp.github.io/data/stevenson-building.js"></script>
     <script src="data/stevenson-building.js"></script>
     <script type="text/babel" src="src/timetable.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'>
   </head>
-  <body>
+  <body style="">
+
+
+    <div>
+      A little introduction to myself
+      Hall of Fame
+      Glasgow Uni Sport
+    </div>
+
     <div id="App"></div>
 
-    <script type="text/babel" src="src/timetable.js"></script>
+    <script type="text/babel">
+var MainHeader = React.createClass({
+  render: function() {
+    return (
+    <div>
+      <div style={{display: 'flex', alignItems: 'center'
+      /*background: linear-gradient(0deg, #FFCCCC, #F8ECC2);*/
+      }}>
+        <span style={{
+            'font-family': "'Monsieur La Doulaise',cursive", 'font-size': '2.5em', flex:' 2 1 0%', 'text-align': 'center',
+            'padding-top': '0.5em',
+            'text-shadow': '0 0 3px black'
+        }}>
+          Félix Daniel Rodríguez Pérez
+        </span>
+        <div style={{display: 'inline-flex',
+                    'align-content': 'center',
+                    'flex-flow': 'column nowrap',
+                    flex: '1 1 0%'}}>
+          <div style={{
+            'font-family': 'mono, cursive',
+            'text-align': 'center',
+            'font-size': '13px'
+            }}>
+            Software Developer at
+          </div>
+          <img src="/images/glasgow.svg" />
+        </div>
+      </div>
+      <div style={{position: 'relative'}}>
+        <div style={{position: 'absolute',
+                  width: '100%',
+                  'border-style': 'solid',
+                  'border-width': '1.5px',
+                  'border-bottom': 'white',
+                  top: '2px'}}></div>
+        <div style={{
+                  position: 'absolute',
+                  top: 0,
+                  margin: '0 50px',
+                  padding: '0 5px',
+                  'background-color': 'white'}}>
+          <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
+          <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
+          <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
+        </div>
+      </div>
+    </div>);
+  }
+});
+var Main = React.createClass({
+  getInitialState: function() {
+    return {
+      childText: 'Hello'
+    };
+  },
+
+  sayHello: function(e) {
+    this.setState( { childText: e.target.value } );
+  },
+
+  render: function() {
+    var style = {margin: '10px 0', fontSize:'15px'};
+    return (
+      <div style={{color: '#555'}}>
+        <MainHeader />
+        <h3>
+          Component Live: componentWillReceiveProps
+        </h3>
+
+        <div>
+          <input type="button" value="Hola" onClick={ this.sayHello } style={style}/>
+        </div>
+
+        <div>
+          <input type="button" value="Hi" onClick={ this.sayHello } style={style}/>
+        </div>
+
+        <Child text={this.state.childText} />
+        <ChildState text={this.state.childText} />
+      </div>
+          );
+      }
+    });
+
+var Child = React.createClass({
+  render: function() {
+    return (
+      <div>
+        <h2 style={{textDecoration: 'underline'}}>
+          a. Component child using props:
+        </h2>
+        <h3>
+          {this.props.text}
+        </h3>
+      </div>
+    );
+  }
+});
+
+var ChildState = React.createClass({
+  getInitialState: function() {
+    return {
+      text: this.props.text
+    };
+  },
+/*
+  componentWillReceiveProps: function(nextProps) {
+    this.setState({
+      text: nextProps.text
+    });
+  },
+*/
+  render: function() {
+    return (
+      <div>
+        <h2 style={{textDecoration: 'underline'}}>
+          b. Component child using state:
+        </h2>
+        <h3>
+          {this.state.text}
+        </h3>
+      </div>
+    );
+  }
+});
+
+React.render(
+  <Main />,
+  document.getElementById('App')
+);
+
+    </script>
   </body>
 </html>
