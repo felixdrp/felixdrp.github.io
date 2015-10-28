@@ -13,51 +13,6 @@ var TIMETABLE_DATA = {
                     name: 'Total Body Workout',
                     place: 'Studio 3'
                 },
-                {
-                    hour: '0815 - 0845',
-                    name: 'Stretch Express',
-                    place: 'Studio 3'
-                },
-                {
-                    hour: '1130 - 1200',
-                    name: 'Core Conditioning',
-                    place: 'Studio 3'
-                },
-                {
-                    hour: '1210 - 1250',
-                    name: 'Circuit Express',
-                    place: 'Activity Hall'
-                },
-                {
-                    hour: '1310 - 1350',
-                    name: 'Stretch 2 Harmony',
-                    place: 'Studio 3'
-                },
-                {
-                    hour: '1310 - 1350',
-                    name: 'Park Fitness',
-                    place: 'Fresh Air'
-                },
-                {
-                    hour: '1615 - 1655',
-                    name: 'Hi-Lo Aerobics',
-                    place: 'Studio 3'
-                },
-                {
-                    hour: '1720 - 1805',
-                    name: 'BoxFit',
-                    place: 'Activity Hall'
-                },
-                {
-                    hour: '1810 - 1850',
-                    name: 'Total Body Workout',
-                    place: 'Studio 3'
-                },
-                {
-                    hour: '1825 - 1925',
-                    name: 'Super Circuits',
-                    place: 'Activity Hall'
-                },
             ]
         },
 
