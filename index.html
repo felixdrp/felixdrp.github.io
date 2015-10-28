@@ -11,14 +11,11 @@
   </head>
   <body style="">
 
-
-    <div>
-      A little introduction to myself
-      Hall of Fame
-      Glasgow Uni Sport
-    </div>
-
     <div id="App"></div>
+
+    <div style="color: #444">
+      <span style="margin-left: 15px; font-size: 1.5em;">I</span>'m a software developer natural from Canary Islands, Spain, actually based in the city of Glasgow.
+    </div>
 
     <script type="text/babel">
 var MainHeader = React.createClass({
@@ -31,7 +28,7 @@ var MainHeader = React.createClass({
         <span style={{
             'font-family': "'Monsieur La Doulaise',cursive", 'font-size': '2.5em', flex:' 2 1 0%', 'text-align': 'center',
             'padding-top': '0.5em',
-            'text-shadow': '0 0 3px black'
+            'text-shadow': '0 0 2px black'
         }}>
           Félix Daniel Rodríguez Pérez
         </span>
@@ -50,18 +47,19 @@ var MainHeader = React.createClass({
         </div>
       </div>
       <div style={{position: 'relative'}}>
-        <div style={{position: 'absolute',
-                  width: '100%',
-                  'border-style': 'solid',
-                  'border-width': '1.5px',
-                  'border-bottom': 'white',
-                  top: '2px'}}></div>
         <div style={{
-                  position: 'absolute',
-                  top: 0,
-                  margin: '0 50px',
-                  padding: '0 5px',
-                  'background-color': 'white'}}>
+             position: 'absolute',
+             width: '100%',
+             'border-style': 'solid',
+             'border-width': '1.5px',
+             'border-bottom': 'white',
+             top: '2px'}}></div>
+        <div style={{
+             position: 'absolute',
+             top: 0,
+             margin: '0 50px',
+             padding: '0 5px',
+             'background-color': 'white'}}>
           <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
           <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
           <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
@@ -86,66 +84,21 @@ var Main = React.createClass({
     return (
       <div style={{color: '#555'}}>
         <MainHeader />
-        <h3>
-          Component Live: componentWillReceiveProps
-        </h3>
 
-        <div>
-          <input type="button" value="Hola" onClick={ this.sayHello } style={style}/>
+        <div style={{
+             marginTop: '15px',
+             marginBottom: '15px',
+             fontSize: '1em',
+            'text-align': 'center'
+             }}>
+          <b> A little introduction to myself </b>
+          &#x00B7; Glasgow Uni Sport
+          &#x00B7; Hall of Fame
         </div>
-
-        <div>
-          <input type="button" value="Hi" onClick={ this.sayHello } style={style}/>
-        </div>
-
-        <Child text={this.state.childText} />
-        <ChildState text={this.state.childText} />
       </div>
           );
       }
     });
-
-var Child = React.createClass({
-  render: function() {
-    return (
-      <div>
-        <h2 style={{textDecoration: 'underline'}}>
-          a. Component child using props:
-        </h2>
-        <h3>
-          {this.props.text}
-        </h3>
-      </div>
-    );
-  }
-});
-
-var ChildState = React.createClass({
-  getInitialState: function() {
-    return {
-      text: this.props.text
-    };
-  },
-/*
-  componentWillReceiveProps: function(nextProps) {
-    this.setState({
-      text: nextProps.text
-    });
-  },
-*/
-  render: function() {
-    return (
-      <div>
-        <h2 style={{textDecoration: 'underline'}}>
-          b. Component child using state:
-        </h2>
-        <h3>
-          {this.state.text}
-        </h3>
-      </div>
-    );
-  }
-});
 
 React.render(
   <Main />,
