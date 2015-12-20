@@ -3,108 +3,143 @@
     <title>About me.</title>
     <script src="http://felixdrp.github.io/lib/bower_components/react/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
-    <!-- Load timetable data -->
-    <script src="http://felixdrp.github.io/data/custom.js"></script>
-    <script src="data/stevenson-building.js"></script>
-    <script type="text/babel" src="src/timetable.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'>
+    <style media="screen">
+      #Content {
+        display: flex;
+      }
+      #Content #main{
+        flex: 2;
+        margin: 2px 35px;
+      }
+      #Content #news{
+        flex: 1;
+        margin: 0 10px;
+      }
+      .images-main {
+        margin: 15px;
+        text-decoration: none;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), -1px 0px 0px rgba(0, 0, 0, 0.03), 1px 0px 0px rgba(0, 0, 0, 0.03), 0px 1px 0px rgba(0, 0, 0, 0.12);
+      }
+      .images-main div {
+        padding: 5px;
+        font-style: italic;
+        color: gray;
+      }
+      .first-letter {
+        margin-right: 2px;
+        margin-left: 20px;
+        font-size: 1.5em;
+      }
+    </style>
   </head>
   <body style="">
+    <div id="mainHead"></div>
 
-    <div id="App"></div>
-
-    <div style="color: #444">
-      <span style="margin-left: 15px; font-size: 1.5em;">I</span>'m a software developer natural from Canary Islands, Spain, actually based in the city of Glasgow.
-    </div>
-
-    <script type="text/babel">
-var MainHeader = React.createClass({
-  render: function() {
-    return (
-    <div>
-      <div style={{display: 'flex', alignItems: 'center'
-      /*background: linear-gradient(0deg, #FFCCCC, #F8ECC2);*/
-      }}>
-        <span style={{
-            'font-family': "'Monsieur La Doulaise',cursive", 'font-size': '2.5em', flex:' 2 1 0%', 'text-align': 'center',
-            'padding-top': '0.5em',
-            'text-shadow': '0 0 2px black'
-        }}>
-          Félix Daniel Rodríguez Pérez
-        </span>
-        <div style={{display: 'inline-flex',
-                    'align-content': 'center',
-                    'flex-flow': 'column nowrap',
-                    flex: '1 1 0%'}}>
-          <div style={{
-            'font-family': 'mono, cursive',
-            'text-align': 'center',
-            'font-size': '13px'
-            }}>
-            Software Developer at
+    <div id="Content">
+      <div id="main" style="color: #444">
+        <a href="https://en.wikipedia.org/wiki/Glasgow" class="images-main" style="float: right">
+          <img
+            alt=""
+            src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Glasgow-George-Square.jpg/250px-Glasgow-George-Square.jpg"
+            width="250"
+            height="185"
+            class="thumbimage"
+            srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Glasgow-George-Square.jpg/375px-Glasgow-George-Square.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Glasgow-George-Square.jpg/500px-Glasgow-George-Square.jpg 2x"
+            data-file-width="3517"
+            data-file-height="2602"
+          >
+          <div>
+            Glasgow City Center
           </div>
-          <img src="/images/glasgow.svg" />
-        </div>
+        </a>
+        <p>
+          <span class="first-letter">I</span>'m
+          a software developer natural from Canary Islands, Spain, based in Glasgow City, Scotland.
+        </p>
+        <p>
+          Glasgow is a cosmopolitan city which is experimenting a vibrant and growing computing science scene, which attract the best of IT talents worldwide.
+        </p>
+        <p>
+          Also,
+          <a href="http://www.theguardian.com/education/table/2013/jun/04/university-guide-computer-sciences-it">
+            the University of Glasgow
+          </a>
+           is considered one of the most important UK centres in computer science.
+        </p>
+        <p>
+          All these reasons presents me Glasgow as a natural option to develop and gain the best experiences for my career.
+        </p>
+
+        <h3>Glasgow's job experience</h3>
+
+        <p>
+          <span class="first-letter">M</span>y actual job is at
+          <a href="http://www.scoopanalytics.io/">Scoop Analytics</a>.<br/>
+          This is an amazing spinout based in the University of Glasgow.
+          The company has a very high human and technical components.<br/>
+          I'm very proud be involved.
+
+        </p>
+        <p>
+          Another job experience was at
+          <a href="http://www.formedix.com/">Formedix</a>.<br>
+          It was a challenging and enriching experience in the software development with medical standards.
+        <br/>
+          Thanks to all the company's people.
+        </p>
+
+        <h3>Background</h3>
+
+        <p>
+          <span class="first-letter">I</span> had a background in the following areas:
+        </p>
+        <p>
+          A degree in Telecommunications, in the
+          <a href="https://www.ulpgc.es">University of Las Palmas de Gran Canarias</a>.
+        </p>
+        <p>
+          Subjects:
+          <ul>
+            <li>Telecommunications</li>
+            <li>Networking</li>
+            <li>Signal processing</li>
+            <li>Software development</li>
+            <li>Electronics</li>
+          </ul>
+        </p>
+        <p>
+          Actually, I'm working with <a href="http://agilemethodology.org/">agile methodologies</a>,
+          using <a href="https://git-scm.com/">GIT version control system</a>
+          and javascript technologies like
+          <a href="https://nodejs.org">Nodejs</a> and
+          <a href="https://facebook.github.io/react/">React</a> from facebook.
+        </p>
       </div>
-      <div style={{position: 'relative'}}>
-        <div style={{
-             position: 'absolute',
-             width: '100%',
-             'border-style': 'solid',
-             'border-width': '1.5px',
-             'border-bottom': 'white',
-             top: '2px'}}></div>
-        <div style={{
-             position: 'absolute',
-             top: 0,
-             margin: '0 50px',
-             padding: '0 5px',
-             'background-color': 'white'}}>
-          <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
-          <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
-          <div style={{top:0, width: '5px', height: '5px', margin: '0 3px', 'background-color': 'black', display: 'inline-block'}}></div>
-        </div>
+
+      <div id="news" style="color: #444">
+        <h3>Review</h3>
+        <span style="margin-left: 15px; font-size: 1.5em;">S</span>ome
+        interesting information.
+        <a href="https://en.wikipedia.org/wiki/Glasgow">
+          <img
+            align="right"
+            alt=""
+            src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Glasgow-George-Square.jpg/250px-Glasgow-George-Square.jpg"
+            width="250"
+            height="185"
+            class="thumbimage"
+            srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Glasgow-George-Square.jpg/375px-Glasgow-George-Square.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Glasgow-George-Square.jpg/500px-Glasgow-George-Square.jpg 2x"
+            data-file-width="3517"
+            data-file-height="2602"
+          >
+        </a>
       </div>
-    </div>);
-  }
-});
-var Main = React.createClass({
-  getInitialState: function() {
-    return {
-      childText: 'Hello'
-    };
-  },
+    </div>
+    <div id="mainFoot"></div>
 
-  sayHello: function(e) {
-    this.setState( { childText: e.target.value } );
-  },
-
-  render: function() {
-    var style = {margin: '10px 0', fontSize:'15px'};
-    return (
-      <div style={{color: '#555'}}>
-        <MainHeader />
-
-        <div style={{
-             marginTop: '15px',
-             marginBottom: '15px',
-             fontSize: '1em',
-            'text-align': 'center'
-             }}>
-          <b> A little introduction to myself </b>
-          &#x00B7; Glasgow Uni Sport
-          &#x00B7; Hall of Fame
-        </div>
-      </div>
-          );
-      }
-    });
-
-React.render(
-  <Main />,
-  document.getElementById('App')
-);
-
-    </script>
+    <!-- Load page main header and foot -->
+    <script type="text/babel" src="/felixdrp.github.io/src/mainHeader.js"></script>
+    <script type="text/babel" src="/felixdrp.github.io/src/mainFoot.js"></script>
   </body>
 </html>
