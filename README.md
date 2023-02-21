@@ -1,7 +1,9 @@
 # felixdrp.github.io
 About me
 
-## New info
+## Reactjs
+
++ [Separation of concerns react container and presentational components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
 
 ## Software related
 
