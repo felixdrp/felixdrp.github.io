@@ -16,3 +16,8 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 ## Projects related
 
 + [Productivity through Focus](https://www.youtube.com/watch?v=XfWEXYAyiWw) 🎞 🎥
++ [Manifesto for Agile Software Development](https://agilemanifesto.org/) 📃
+  + **Individuals and interactions** over processes and tools
+  + **Working software** over comprehensive documentation
+  + **Customer collaboration** over contract negotiation
+  + **Responding to change** over following a plan
