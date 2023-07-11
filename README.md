@@ -6,6 +6,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Separation of concerns react container and presentational components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
 
 ## Software related
++ [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 + [List of software development philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies) 
 + [Bus_factor](https://en.wikipedia.org/wiki/Bus_factor), James Coplien, Pair Programming Illuminated. Quote: "How many or few would have to be hit by a truck (or quit) before the project is incapacitated?"
 + [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law), Summarizing an example in Conway's paper, Raymond wrote: If you have four groups working on a compiler, you'll get a 4-pass compiler.
