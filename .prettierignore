@@ -1,0 +1,14 @@
+#custom
+dist/
+gla/
+data/
+lib/
+
+#General
+build/
+node_modules/
+internals/generators/
+internals/scripts/
+package-lock.json
+yarn.lock
+package.json

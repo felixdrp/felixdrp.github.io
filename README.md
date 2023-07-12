@@ -15,3 +15,21 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 ## Projects related
 
 + [Productivity through Focus](https://www.youtube.com/watch?v=XfWEXYAyiWw) 🎞 🎥
++ [Adding more people to a project (Unwind from your busy schedule with a smile.)](https://workchronicles.com/adding-more-people-to-a-project/)
+diflaxacot vir 30mg compri
+amoxicilina 500mg compri
+prodefend plus probioticos vitam D3
+
+info sede web icv
+
+por que :
+  Experience,
+  Knowledge
+  Interest
+    machine learning
+  paquetes, npm
+  github.
+
+  web statistics
+
+F R al reves P usando el mismo palo para las dos letras...
