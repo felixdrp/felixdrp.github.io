@@ -754,9 +754,21 @@ function App() {
             </h2>
             <p>
               <span class="font-serif text-4xl text-slate-900 ml-3 mr-1">I</span>'m
-              a software developer based in Glasgow City, Scotland.
+              a software developer based in Glasgow City 🐎
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f6/VLC.svg"
+                alt="traffic cone"
+                style={{display: 'inline'}}
+                width={20}
+              />, Scotland 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿.
             </p>
-
+            <p>
+              <img
+                class="object-center m-6 mx-auto"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Glasgow-CoA.svg"
+                width={180}
+              />
+            </p>
             <p class="my-3">
               Glasgow city is a cultural and cosmopolitan with a vibrant and growing
               computing science scene, which attracts the best of IT talents.
