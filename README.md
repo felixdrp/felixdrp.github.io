@@ -17,8 +17,10 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 ## Projects related
 
 + [Productivity through Focus](https://www.youtube.com/watch?v=XfWEXYAyiWw) 🎞 🎥
++ [Adding more people to a project (Unwind from your busy schedule with a smile.)](https://workchronicles.com/adding-more-people-to-a-project/)
 + [Manifesto for Agile Software Development](https://agilemanifesto.org/) 📃
   + **Individuals and interactions** over processes and tools
   + **Working software** over comprehensive documentation
   + **Customer collaboration** over contract negotiation
   + **Responding to change** over following a plan
++ [Top 5 techniques for building the worst microservice system ever - William Brander - NDC London 2023](https://www.youtube.com/watch?v=88_LUw1Wwe4)

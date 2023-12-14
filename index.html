@@ -1,9 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>About me.</title>
-    <script src="http://felixdrp.github.io/lib/bower_components/react/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+
+    <title>Felix Rodriguez Perez</title>
+    <link rel="stylesheet" type="text/css" href="/src/assets/libertinus.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- <script src="http://felixdrp.github.io/lib/bower_components/react/react.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'> -->
     <style media="screen">
       #Content {
         display: flex;
@@ -34,7 +42,12 @@
     </style>
   </head>
   <body style="">
-    <div id="mainHead"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script src="/src/index.jsx" type="module"></script>
+
+    <!-- <div id="mainHead"></div>
 
     <div id="Content">
       <div id="main" style="color: #444">
@@ -137,10 +150,11 @@
         </a>
       </div>
     </div>
-    <div id="mainFoot"></div>
+    <div id="mainFoot"></div> -->
 
     <!-- Load page main header and foot -->
-    <script type="text/babel" src="/felixdrp.github.io/src/mainHeader.js"></script>
-    <script type="text/babel" src="/felixdrp.github.io/src/mainFoot.js"></script>
+    <!-- <script type="text/babel" src="/felixdrp.github.io/src/mainHeader.js"></script>
+    <script type="text/babel" src="/felixdrp.github.io/src/mainFoot.js"></script> -->
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7572376fcca4455c8d169a4721f348fe"}'></script><!-- End Cloudflare Web Analytics -->
   </body>
 </html>
