@@ -23,3 +23,4 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
   + **Working software** over comprehensive documentation
   + **Customer collaboration** over contract negotiation
   + **Responding to change** over following a plan
++ [Top 5 techniques for building the worst microservice system ever - William Brander - NDC London 2023](https://www.youtube.com/watch?v=88_LUw1Wwe4)
