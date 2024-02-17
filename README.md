@@ -29,4 +29,6 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
   + [Awesome Chaos Engineering, A curated list of awesome Chaos Engineering resources.](https://github.com/dastergon/awesome-chaos-engineering)
   + [Netflix, We built Chaos Kong, which doesn’t just kill a server. It kills an entire AWS Region](https://netflixtechblog.com/chaos-engineering-upgraded-878d341f15fa)
 + [**Frequency Reduces Difficulty**. "if it hurts, do it more often"](https://martinfowler.com/bliki/FrequencyReducesDifficulty.html)
++ [Understanding **tech debt**: the good, the bad and the ugly](https://www.thoughtworks.com/insights/articles/overcome-tech-debt-keep-your-business-moving)
+  + Much like financial debt, there can be short-term benefits for this, but in the long run, you need to be mindful and ensure it’s properly managed.
 + [Top 5 techniques for building the worst microservice system ever - William Brander - NDC London 2023](https://www.youtube.com/watch?v=88_LUw1Wwe4)
