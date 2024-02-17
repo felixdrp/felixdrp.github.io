@@ -23,4 +23,9 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
   + **Working software** over comprehensive documentation
   + **Customer collaboration** over contract negotiation
   + **Responding to change** over following a plan
++ [**Chaos Engineering** is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.](http://principlesofchaos.org/)
+  + Chaos Engineering makes our system stronger, and gives us the confidence to move quickly in a very complex system.
+  + Taleb's thesis is that in a volatile world with a lot of destructive uncertainty, the wise economic strategy is to be antifragile: protect the downside but prepare to benefit disproportionately from potential external negative events and in all cases avoid fragility. Taleb suggests that in a world full of uncertainty and volatility, it’s beneficial to build systems that are antifragile Related to [Taleb's Antifragile](https://en.wikipedia.org/wiki/Antifragile_%28book%29)
+  + [Awesome Chaos Engineering, A curated list of awesome Chaos Engineering resources.](https://github.com/dastergon/awesome-chaos-engineering)
+  + [Netflix, We built Chaos Kong, which doesn’t just kill a server. It kills an entire AWS Region](https://netflixtechblog.com/chaos-engineering-upgraded-878d341f15fa)
 + [Top 5 techniques for building the worst microservice system ever - William Brander - NDC London 2023](https://www.youtube.com/watch?v=88_LUw1Wwe4)
