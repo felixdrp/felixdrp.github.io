@@ -34,3 +34,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Understanding **tech debt**: the good, the bad and the ugly](https://www.thoughtworks.com/insights/articles/overcome-tech-debt-keep-your-business-moving)
   + Much like financial debt, there can be short-term benefits for this, but in the long run, you need to be mindful and ensure it’s properly managed.
 + [Top 5 techniques for building the worst microservice system ever - William Brander - NDC London 2023](https://www.youtube.com/watch?v=88_LUw1Wwe4)
+
+## AI
+
++ [Andrej Karpathy, 1hr Talk, Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) 🎞 🎥
