@@ -38,3 +38,4 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 ## AI
 
 + [Andrej Karpathy, 1hr Talk, Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) 🎞 🎥
++ [Jay Alammar, The Narrated Transformer Language Model](https://www.youtube.com/watch?v=-QH8fRhqFHM) :yt:
