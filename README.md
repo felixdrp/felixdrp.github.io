@@ -13,6 +13,8 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [on-the-dilemma-of-software-complexity](https://alibaba-cloud.medium.com/on-the-dilemma-of-software-complexity-a4a27c718931)
 + [Problem solving](https://www.youtube.com/watch?v=rJZyPdYIbZI), How Game Designers Solved These 11 Problems.
 + [Hyrum's Law](https://www.hyrumslaw.com/), Not all consumers depend upon the same implicit interface, but given enough consumers, the implicit interface will eventually exactly match the implementation. With a bit of luck, widespread, comprehensive, and automated testing can detect these new expectations but not ameliorate them.
++ [Continuous Deployment of Node.js Applications](https://blog.risingstack.com/continuous-deployment-of-node-js-applications/)
++ [Operating Node.js in Production](https://blog.risingstack.com/operating-node-in-production/)
 
 ## Projects related
 
