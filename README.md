@@ -11,6 +11,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Hyrum's Law](https://www.hyrumslaw.com/), Not all consumers depend upon the same implicit interface, but given enough consumers, the implicit interface will eventually exactly match the implementation. With a bit of luck, widespread, comprehensive, and automated testing can detect these new expectations but not ameliorate them.
 + [Continuous Deployment of Node.js Applications](https://blog.risingstack.com/continuous-deployment-of-node-js-applications/)
 + [Operating Node.js in Production](https://blog.risingstack.com/operating-node-in-production/)
++ [Scott McCarty, A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
 
 ### Reactjs
 
