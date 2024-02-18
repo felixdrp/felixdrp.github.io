@@ -1,10 +1,6 @@
 # felixdrp.github.io
 About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 
-## Reactjs
-
-+ [Separation of concerns react container and presentational components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
-
 ## Software related
 + [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 + [List of software development philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies) 
@@ -15,6 +11,10 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Hyrum's Law](https://www.hyrumslaw.com/), Not all consumers depend upon the same implicit interface, but given enough consumers, the implicit interface will eventually exactly match the implementation. With a bit of luck, widespread, comprehensive, and automated testing can detect these new expectations but not ameliorate them.
 + [Continuous Deployment of Node.js Applications](https://blog.risingstack.com/continuous-deployment-of-node-js-applications/)
 + [Operating Node.js in Production](https://blog.risingstack.com/operating-node-in-production/)
+
+### Reactjs
+
++ [Separation of concerns react container and presentational components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
 
 ## Projects related
 
