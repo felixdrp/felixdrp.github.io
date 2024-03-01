@@ -17,6 +17,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 ### Reactjs
 
 + [Separation of concerns react container and presentational components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
++ [Write React clean-code - SOLID](https://www.youtube.com/watch?v=MSq_DCRxOxw) 🎞 🎥
 
 ## Projects related
 
