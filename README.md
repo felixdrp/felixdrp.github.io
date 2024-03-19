@@ -14,6 +14,10 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Scott McCarty, A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
 + [Nathan Lager (Sudoer, Red Hat), Moving from docker-compose to Podman pods](https://www.redhat.com/sysadmin/compose-podman-pods)
 
+### Web general
+
++ [Lea Verou: CSS in the 4th Dimension - JSConf.Asia 2013](https://www.youtube.com/watch?v=NTJUFQmHbvc) 🎞 🎥
+
 ### Reactjs
 
 + [Separation of concerns react container and presentational components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
@@ -45,3 +49,6 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Jay Alammar, The Narrated Transformer Language Model](https://www.youtube.com/watch?v=-QH8fRhqFHM) ▶️
 + [Yannic Kilcher, Attention Is All You Need](https://www.youtube.com/watch?v=iDulhoQ2pro) ▶️
 
+## People likes
+
++ [@jaysoo / software-development-talks](https://github.com/jaysoo/software-development-talks)
