@@ -46,6 +46,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 ## AI
 
 + [Andrej Karpathy, 1hr Talk, Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) 🎞 🎥
++ [3Blue1Brown, But what is a GPT? Visual intro to Transformers | Deep learning, chapter 5](https://www.youtube.com/watch?v=wjZofJX0v4M) 🎞 🎥
 + [Jay Alammar, The Narrated Transformer Language Model](https://www.youtube.com/watch?v=-QH8fRhqFHM) ▶️
 + [Yannic Kilcher, Attention Is All You Need](https://www.youtube.com/watch?v=iDulhoQ2pro) ▶️
 
