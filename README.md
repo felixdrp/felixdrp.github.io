@@ -2,6 +2,7 @@
 About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 
 ## Software related
++ [Philomatics, Never* use git pull](https://www.youtube.com/watch?v=xN1-2p06Urc)
 + [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 + [List of software development philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies) 
 + [Bus_factor](https://en.wikipedia.org/wiki/Bus_factor), James Coplien, Pair Programming Illuminated. Quote: "How many or few would have to be hit by a truck (or quit) before the project is incapacitated?"
