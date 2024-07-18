@@ -460,7 +460,7 @@ function App() {
                 </li>
                 <li>
                   <a href='https://webrtc.org/'>
-                    <img class="h-10" src="https://www.gstatic.com/devrel-devsite/prod/vb33fefd4f475972d9db8a48eb99721b7e7821d5a39de2b21c4f6caf579ea0944/webrtc/images/lockup.svg" alt="WebRTC"/>
+                    <img class="h-10" src="https://www.gstatic.com/devrel-devsite/prod/vfa66122381520aa66a2392fe22cd63e3f9c34ba07e71f8c7082c2a470b6e6f49/webrtc/images/lockup.svg" alt="WebRTC"/>
                   </a>
                 </li>
 
