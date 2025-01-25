@@ -14,6 +14,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Operating Node.js in Production](https://blog.risingstack.com/operating-node-in-production/)
 + [Scott McCarty, A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
 + [Nathan Lager (Sudoer, Red Hat), Moving from docker-compose to Podman pods](https://www.redhat.com/sysadmin/compose-podman-pods)
++ [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://www.youtube.com/watch?v=rX0ItVEVjHc&t=0s) 🎞 🎥
 
 ### Web general
 
