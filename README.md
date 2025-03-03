@@ -46,6 +46,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
   + Much like financial debt, there can be short-term benefits for this, but in the long run, you need to be mindful and ensure it’s properly managed.
 + [Top 5 techniques for building the worst microservice system ever - William Brander - NDC London 2023](https://www.youtube.com/watch?v=88_LUw1Wwe4)
 + [Continuous Delivery, This Government Software Project WASTED $500,000,000... Here's Why](https://www.youtube.com/watch?v=w-_nCA3RTYs) ▶️
++ [Jeff Vogel, Failing to Fail: The Spiderweb Software Way](https://www.youtube.com/watch?v=stxVBJem3Rs) ▶️
 
 ## AI
 
