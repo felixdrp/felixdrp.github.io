@@ -15,7 +15,8 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Scott McCarty, A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
 + [Nathan Lager (Sudoer, Red Hat), Moving from docker-compose to Podman pods](https://www.redhat.com/sysadmin/compose-podman-pods)
 + [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://www.youtube.com/watch?v=rX0ItVEVjHc&t=0s) 🎞 🎥
-+ [Andrew Kelley Practical Data Oriented Design (DoD)](https://www.youtube.com/watch?v=IroPQ150F6c) 🎞 🎥
++ [Andrew Kelley, Practical Data Oriented Design (DoD)](https://www.youtube.com/watch?v=IroPQ150F6c) 🎞 🎥
++ [Andrew Kelley, Programming without pointers](https://www.hytradboi.com/2025/05c72e39-c07e-41bc-ac40-85e8308f2917-programming-without-pointers) 🎞 🎥
 
 ### Web general
 
