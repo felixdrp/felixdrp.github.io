@@ -17,6 +17,7 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://www.youtube.com/watch?v=rX0ItVEVjHc&t=0s) 🎞 🎥
 + [Andrew Kelley, Practical Data Oriented Design (DoD)](https://www.youtube.com/watch?v=IroPQ150F6c) 🎞 🎥
 + [Andrew Kelley, Programming without pointers](https://www.hytradboi.com/2025/05c72e39-c07e-41bc-ac40-85e8308f2917-programming-without-pointers) 🎞 🎥
++ [The Brain Dump, 'Handles are the better pointers'](https://floooh.github.io/2018/06/17/handles-vs-pointers.html)
 
 ### Web general
 
