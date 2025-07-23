@@ -29,6 +29,10 @@ About me 🌍 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 + [Write React clean-code - SOLID](https://www.youtube.com/watch?v=MSq_DCRxOxw) 🎞 🎥
 + [10 React Antipatterns to Avoid](https://www.youtube.com/watch?v=b0IZo2Aho9Y) 🎞 🎥
 
+### Ziglang
+
++ [Zig SHOWTIME, [#42] Asynchrony is NOT Concurrency! - Loris Cro & Andrew Kelley](https://www.youtube.com/watch?v=l8fDQdSjPQg)
+
 ## Projects related
 
 + [Productivity through Focus](https://www.youtube.com/watch?v=XfWEXYAyiWw) 🎞 🎥
